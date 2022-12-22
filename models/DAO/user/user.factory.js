@@ -1,5 +1,8 @@
 import ProductFileDAO from "./file.dao.js";
 import ProductMemoryDAO from "./memory.dao.js";
+import UserMemoryDAO from "./memory.dao.js";
+import UserFileDAO from "./file.dao.js";
+
 import UserMongoDAO from "./mongo.dao.js";
 
 class UserFactoryDAO {
