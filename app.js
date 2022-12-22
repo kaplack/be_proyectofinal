@@ -8,7 +8,9 @@ import mySession from "./config/sessionConfig.js";
 import logger from "./config/myLogger.js";
 import ProductRouter from "./routes/product_.routes.js";
 import UserRouter from "./routes/users.routes.js";
+import * as dotenv from "dotenv";
 
+dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(express.static("public"));

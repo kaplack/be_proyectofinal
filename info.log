@@ -33958,3 +33958,247 @@
 }
 [2022-12-21T02:07:30.766] [INFO] default - DB Connected
 [2022-12-21T02:07:30.766] [INFO] default - DB Connected
+[2022-12-21T20:30:11.642] [INFO] default - Connecting mongo DB ...
+[2022-12-21T20:30:11.670] [INFO] default - UserMongoDAO {
+  getUsers: [AsyncFunction: getUsers],
+  insertUser: [AsyncFunction: insertUser],
+  updateUser: [AsyncFunction: updateUser],
+  deleteUser: [AsyncFunction: deleteUser],
+  getUser: [AsyncFunction: getUser],
+  _collection: Model { col_users }
+}
+[2022-12-21T20:30:11.760] [INFO] default - Connecting mongo DB ...
+[2022-12-21T20:30:11.761] [INFO] default - UserMongoDAO {
+  getUsers: [AsyncFunction: getUsers],
+  insertUser: [AsyncFunction: insertUser],
+  updateUser: [AsyncFunction: updateUser],
+  deleteUser: [AsyncFunction: deleteUser],
+  getUser: [AsyncFunction: getUser],
+  _collection: Model { col_users }
+}
+[2022-12-21T20:30:11.763] [INFO] default - Connecting mongo DB ...
+[2022-12-21T20:30:11.763] [INFO] default - UserMongoDAO {
+  getUsers: [AsyncFunction: getUsers],
+  insertUser: [AsyncFunction: insertUser],
+  updateUser: [AsyncFunction: updateUser],
+  deleteUser: [AsyncFunction: deleteUser],
+  getUser: [AsyncFunction: getUser],
+  _collection: Model { col_users }
+}
+[2022-12-21T20:30:11.819] [INFO] default - Connecting mongo DB ...
+[2022-12-21T20:30:11.820] [INFO] default - ProductMongoDAO {
+  getUser: [AsyncFunction: getUser],
+  insertNoticia: [AsyncFunction: insertNoticia],
+  updateNoticia: [AsyncFunction: updateNoticia],
+  deleteNoticia: [AsyncFunction: deleteNoticia],
+  getProducts: [AsyncFunction: getProducts],
+  insertProduct: [AsyncFunction: insertProduct],
+  delProduct: [AsyncFunction: delProduct],
+  _collection: Model { col_products }
+}
+[2022-12-21T20:30:11.826] [INFO] default - Connecting mongo DB ...
+[2022-12-21T20:30:11.828] [INFO] default - UserMongoDAO {
+  getUsers: [AsyncFunction: getUsers],
+  insertUser: [AsyncFunction: insertUser],
+  updateUser: [AsyncFunction: updateUser],
+  deleteUser: [AsyncFunction: deleteUser],
+  getUser: [AsyncFunction: getUser],
+  _collection: Model { col_users }
+}
+[2022-12-21T20:30:11.830] [INFO] default - Connecting mongo DB ...
+[2022-12-21T20:30:11.831] [INFO] default - UserMongoDAO {
+  getUsers: [AsyncFunction: getUsers],
+  insertUser: [AsyncFunction: insertUser],
+  updateUser: [AsyncFunction: updateUser],
+  deleteUser: [AsyncFunction: deleteUser],
+  getUser: [AsyncFunction: getUser],
+  _collection: Model { col_users }
+}
+[2022-12-21T20:30:11.833] [INFO] default - Connecting mongo DB ...
+[2022-12-21T20:30:11.833] [INFO] default - ProductMongoDAO {
+  getUser: [AsyncFunction: getUser],
+  insertNoticia: [AsyncFunction: insertNoticia],
+  updateNoticia: [AsyncFunction: updateNoticia],
+  deleteNoticia: [AsyncFunction: deleteNoticia],
+  getProducts: [AsyncFunction: getProducts],
+  insertProduct: [AsyncFunction: insertProduct],
+  delProduct: [AsyncFunction: delProduct],
+  _collection: Model { col_products }
+}
+[2022-12-21T20:30:11.835] [INFO] default - Connecting mongo DB ...
+[2022-12-21T20:30:11.837] [INFO] default - UserMongoDAO {
+  getUsers: [AsyncFunction: getUsers],
+  insertUser: [AsyncFunction: insertUser],
+  updateUser: [AsyncFunction: updateUser],
+  deleteUser: [AsyncFunction: deleteUser],
+  getUser: [AsyncFunction: getUser],
+  _collection: Model { col_users }
+}
+[2022-12-21T20:30:11.842] [INFO] default - Connecting mongo DB ...
+[2022-12-21T20:30:11.843] [INFO] default - ProductMongoDAO {
+  getUser: [AsyncFunction: getUser],
+  insertNoticia: [AsyncFunction: insertNoticia],
+  updateNoticia: [AsyncFunction: updateNoticia],
+  deleteNoticia: [AsyncFunction: deleteNoticia],
+  getProducts: [AsyncFunction: getProducts],
+  insertProduct: [AsyncFunction: insertProduct],
+  delProduct: [AsyncFunction: delProduct],
+  _collection: Model { col_products }
+}
+[2022-12-21T20:30:11.851] [INFO] default - app is running
+[2022-12-21T20:30:13.771] [INFO] default - DB Connected
+[2022-12-21T20:30:13.772] [INFO] default - DB Connected
+[2022-12-21T20:30:13.772] [INFO] default - DB Connected
+[2022-12-21T20:30:13.772] [INFO] default - DB Connected
+[2022-12-21T20:30:13.773] [INFO] default - DB Connected
+[2022-12-21T20:30:13.773] [INFO] default - DB Connected
+[2022-12-21T20:30:13.773] [INFO] default - DB Connected
+[2022-12-21T20:30:13.773] [INFO] default - DB Connected
+[2022-12-21T20:30:13.774] [INFO] default - DB Connected
+[2022-12-21T20:30:18.187] [INFO] default - Connecting mongo DB ...
+[2022-12-21T20:30:18.188] [INFO] default - ProductMongoDAO {
+  getUser: [AsyncFunction: getUser],
+  insertNoticia: [AsyncFunction: insertNoticia],
+  updateNoticia: [AsyncFunction: updateNoticia],
+  deleteNoticia: [AsyncFunction: deleteNoticia],
+  getProducts: [AsyncFunction: getProducts],
+  insertProduct: [AsyncFunction: insertProduct],
+  delProduct: [AsyncFunction: delProduct],
+  _collection: Model { col_products }
+}
+[2022-12-21T20:30:18.189] [INFO] default - Connecting mongo DB ...
+[2022-12-21T20:30:18.189] [INFO] default - UserMongoDAO {
+  getUsers: [AsyncFunction: getUsers],
+  insertUser: [AsyncFunction: insertUser],
+  updateUser: [AsyncFunction: updateUser],
+  deleteUser: [AsyncFunction: deleteUser],
+  getUser: [AsyncFunction: getUser],
+  _collection: Model { col_users }
+}
+[2022-12-21T20:30:18.192] [INFO] default - DB Connected
+[2022-12-21T20:30:18.193] [INFO] default - DB Connected
+[2022-12-21T20:30:39.205] [INFO] default - [
+  {
+    _id: new ObjectId("637edc0cf3a5651747c69d17"),
+    name: 'Botas',
+    description: 'Botas de cuero con aplicativos ',
+    price: 150,
+    stock: 13,
+    thumbnail: 'public\\uploads\\products\\AWZU7262.JPG',
+    createdAt: 2022-11-24T02:50:52.732Z,
+    updatedAt: 2022-11-24T02:50:52.732Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId("637edc401d4f07222c6d0ab8"),
+    name: 'Botas',
+    description: 'Botas de cuero con aplicativos ',
+    price: 150,
+    stock: 13,
+    thumbnail: 'public\\uploads\\products\\AWZU7262.JPG',
+    createdAt: 2022-11-24T02:51:44.088Z,
+    updatedAt: 2022-11-24T02:51:44.088Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId("639b83b84da61fb32d47f844"),
+    name: 'Camison',
+    description: 'Camison gris',
+    price: 344,
+    stock: 21,
+    thumbnail: 'public\\uploads\\products\\modelo3.jpg',
+    createdAt: 2022-12-15T20:29:44.597Z,
+    updatedAt: 2022-12-15T20:29:44.597Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId("639b85cbaafd1f99939e4ff1"),
+    name: 'Test1',
+    description: 'Es una prueba',
+    price: 45,
+    stock: 12,
+    thumbnail: 'public\\uploads\\products\\IMG_8001.JPG',
+    createdAt: 2022-12-15T20:38:35.774Z,
+    updatedAt: 2022-12-15T20:38:35.774Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId("639b86ffd8b6d9f5e546b0ba"),
+    name: 'TEst2',
+    description: 'Hola mundo',
+    price: 66,
+    stock: 12,
+    thumbnail: 'public\\uploads\\products\\modelo4.jpg',
+    createdAt: 2022-12-15T20:43:43.287Z,
+    updatedAt: 2022-12-15T20:43:43.287Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId("639b875c377f26072a5583fa"),
+    name: 'Test 3',
+    description: 'q buena config',
+    price: 35,
+    stock: 12,
+    thumbnail: 'public\\uploads\\products\\servicio_audiovisual.jpg',
+    createdAt: 2022-12-15T20:45:16.619Z,
+    updatedAt: 2022-12-15T20:45:16.619Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId("639b879b1ac685a322607c40"),
+    name: 'Prueba4',
+    description: 'hola señores',
+    price: 54,
+    stock: 12,
+    thumbnail: 'public\\uploads\\products\\servicio_fotografia.jpg',
+    createdAt: 2022-12-15T20:46:19.642Z,
+    updatedAt: 2022-12-15T20:46:19.642Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId("63a28a237cd670da11acad5f"),
+    userID: '63a288e87cd670da11acad51',
+    name: 'Pizza Margherita',
+    description: 'Deliciosa pizza Margherita.',
+    price: 28,
+    stock: 12,
+    thumbnail: 'public\\uploads\\products\\luis-herdt-183FrdDDc0E-unsplash.jpg',
+    createdAt: 2022-12-21T04:22:59.504Z,
+    updatedAt: 2022-12-21T04:22:59.504Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId("63a2afe2b10a800cd4749713"),
+    userID: '637c547cd0749ec906be02ab',
+    name: 'Foto 1',
+    description: 'Descarga esta foto',
+    price: 20,
+    stock: 12,
+    thumbnail: 'public\\uploads\\products\\traveling_cusco.jpg',
+    createdAt: 2022-12-21T07:04:02.813Z,
+    updatedAt: 2022-12-21T07:04:02.813Z,
+    __v: 0
+  }
+]
+[2022-12-21T20:30:51.997] [INFO] default - Connecting mongo DB ...
+[2022-12-21T20:30:51.998] [INFO] default - ProductMongoDAO {
+  getUser: [AsyncFunction: getUser],
+  insertNoticia: [AsyncFunction: insertNoticia],
+  updateNoticia: [AsyncFunction: updateNoticia],
+  deleteNoticia: [AsyncFunction: deleteNoticia],
+  getProducts: [AsyncFunction: getProducts],
+  insertProduct: [AsyncFunction: insertProduct],
+  delProduct: [AsyncFunction: delProduct],
+  _collection: Model { col_products }
+}
+[2022-12-21T20:30:51.999] [INFO] default - Connecting mongo DB ...
+[2022-12-21T20:30:52.000] [INFO] default - UserMongoDAO {
+  getUsers: [AsyncFunction: getUsers],
+  insertUser: [AsyncFunction: insertUser],
+  updateUser: [AsyncFunction: updateUser],
+  deleteUser: [AsyncFunction: deleteUser],
+  getUser: [AsyncFunction: getUser],
+  _collection: Model { col_users }
+}
+[2022-12-21T20:30:52.001] [INFO] default - DB Connected
+[2022-12-21T20:30:52.001] [INFO] default - DB Connected
