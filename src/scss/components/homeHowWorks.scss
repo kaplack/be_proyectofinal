@@ -1,0 +1,59 @@
+/****************************** como funciona **********************************************/
+
+section.como-funciona {
+  margin: 10rem 1rem;
+}
+
+.como-funciona__content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 1rem;
+
+  @include respond(phone) {
+    margin: 0 15px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, -webkit-max-content);
+    grid-template-rows: repeat(3, max-content);
+    grid-gap: 40px;
+  }
+}
+
+.como-funciona__content--box1 {
+  grid-column: 1 / 3;
+
+  text-align: center;
+
+  @include respond(phone) {
+    grid-column: unset;
+  }
+}
+.como-funciona__content--box1 h1 {
+  color: $orange;
+}
+
+.como-funciona__content--box1 h2 {
+  color: White;
+  font-size: 3rem;
+}
+
+.como-funciona__content--box3 ul li {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.como-funciona__content--box3 ul li .numero span {
+  display: inline-block;
+  transform: translate(-10%, 5%);
+  //font-weight: 400;
+  font-size: 1.6rem;
+  color: $orange;
+  padding: 0.8rem 1.3rem;
+
+  border: 1px solid $orange;
+  border-radius: 50%;
+}
+
+.box3__content h3 {
+  color: $orange;
+}

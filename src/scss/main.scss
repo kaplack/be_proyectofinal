@@ -1,0 +1,28 @@
+@import "./abstract/variables.scss";
+@import "./abstract/mixin";
+@import "./abstract/animation";
+
+@import "./base/base";
+@import "./base/typography";
+@import "./base/utils";
+
+@import "components/form";
+@import "components/homeHero";
+@import "components/homeHowWorks";
+@import "components/buttons";
+@import "components/sn_icons";
+@import "components/product_card";
+
+@import "layout/header.scss";
+@import "layout/footer.scss";
+@import "layout/body.scss";
+
+@import "pages/admin.scss";
+@import "pages/store_products.scss";
+@import "pages/login.scss";
+@import "pages/signup.scss";
+
+// .user-box {
+//   display: flex;
+//   justify-content: space-between;
+// }

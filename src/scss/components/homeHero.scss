@@ -1,0 +1,81 @@
+/******************************************** hero *********************************/
+
+.hero-box {
+  display: block;
+  position: relative;
+  height: 60rem;
+  width: 100%;
+  background: url(./img/Slider1_opti.jpg);
+  background-position: center;
+  background-size: cover;
+  -webkit-animation: banner 28s infinite linear;
+  animation: banner 28s infinite linear;
+
+  transition: all 0.3s ease-in-out;
+
+  &::before {
+    content: "";
+    height: 100%;
+    display: block;
+    background: linear-gradient(
+      to bottom right,
+      $terceary-color,
+      $secondary-color
+    );
+    opacity: 0.3;
+  }
+
+  &__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    max-width: 60rem;
+    min-width: 28rem;
+
+    h1 {
+      font-size: 4rem;
+    }
+
+    @include respond(tab-port) {
+      left: 40%;
+    }
+    @include respond(phone) {
+      left: 50%;
+    }
+  }
+}
+
+.boton-box {
+  .boton {
+    @include respond(phone) {
+      margin-bottom: 20px;
+    }
+  }
+
+  div {
+    display: inline-block;
+    font-size: 1.6rem;
+    &:not(:last-child) {
+      margin-right: 2rem;
+    }
+  }
+}
+
+/**************************** HEADER INTERNO ***************************************/
+
+.intern-hero__img {
+  height: 250px;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+
+  -webkit-filter: brightness(0.5);
+
+  filter: brightness(0.5);
+
+  margin-bottom: 8rem;
+}

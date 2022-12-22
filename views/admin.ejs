@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/head.ejs'); %>
+  <body>
+    <%- include('./partials/header.ejs'); %>
+
+    <section>
+      <div class="admin-content row">
+        <div class="admin-content__user">
+          <div class="admin-content__user--data">
+            <h1>Información Personal</h1>
+            <form
+              action="useradmin"
+              enctype="multipart/form-data"
+              method="post"
+              id="updateUser"
+            >
+              <div class="input-admin input-admin__img">
+                <label for="user-image"
+                  ><img
+                    id="userAvatar-img"
+                    src="<%= user.avatar %>"
+                    alt="user avatar" /><i
+                    id="picture-edit"
+                    class="fa fa-file-image-o"
+                    aria-hidden="true"
+                  ></i
+                ></label>
+
+                <input
+                  class="input-admin__tag"
+                  id="user-image"
+                  name="user-image"
+                  hidden
+                  type="file"
+                  disabled="true"
+                />
+              </div>
+              <div class="input-admin">
+                <label for="username">User Name</label>
+                <input
+                  class="input-admin__tag"
+                  id="username"
+                  name="username"
+                  type="text"
+                  value="<%= user.username %>"
+                  disabled="true"
+                  readonly="readonly"
+                />
+              </div>
+              <div class="input-admin">
+                <label for="phone">Telefono</label>
+                <input
+                  class="input-admin__tag"
+                  id="phone"
+                  name="phone"
+                  type="text"
+                  value="<%= user.phone %>"
+                  disabled="true"
+                />
+              </div>
+              <div class="input-admin">
+                <label for="email">email</label>
+                <input
+                  class="input-admin__tag"
+                  id="email"
+                  name="email"
+                  type="text"
+                  value="<%= user.email %>"
+                  disabled="true"
+                />
+              </div>
+              <input
+                type="text"
+                value="<%= user._id %>"
+                id="userID"
+                name="userID"
+                name="userID"
+                hidden
+              />
+            </form>
+            <div class="edit-user-buttons">
+              <button form="updateUser" id="userUpdateBoton">
+                <i id="save-icon" class="fa fa-floppy-o" aria-hidden="true"></i>
+              </button>
+              <i
+                class="fa fa-pencil-square-o"
+                id="edit-user"
+                aria-hidden="true"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="admin-content row">
+        <div class="admin-content__post">
+          <h1>Publicaciones</h1>
+          <ul class="products">
+            <% products.forEach(function(el){ %>
+            <li class="products__item">
+              <h2 class="products__item--title"><%= el.name %></h2>
+              <div class="products__item--img">
+                <img src="<%= el.thumbnail %>" />
+              </div>
+              <div class="products__item--content">
+                <p><%= el.description %></p>
+                <p>Price : $<%= el.price %></p>
+
+                <div class="boton">
+                  <a href="useradmin/dprod/<%= el.id %>" class="boton__fill"
+                    >Eliminar</a
+                  >
+                </div>
+              </div>
+            </li>
+            <% }) %>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="admin-conten row">
+        <div class="admin-content__publish">
+          <h1>Publica</h1>
+          <%-include('./partials/form.ejs'); %>
+        </div>
+      </div>
+    </section>
+
+    <%-include('./partials/footer.ejs'); %>
+  </body>
+</html>

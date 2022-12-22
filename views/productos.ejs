@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/head.ejs'); %>
+  <body>
+    <%- include('./partials/header.ejs'); %>
+    <section>
+      <div class="content-box row">
+        <h1>Lista de Productos</h1>
+        <% if (listExists) { %>
+        <ul class="products">
+          <% products.forEach(function(el){ %>
+          <li class="products__item">
+            <h2 class="products__item--title"><%= el.name %></h2>
+            <div class="products__item--img">
+              <img src="<%= el.thumbnail %>" />
+            </div>
+            <div class="products__item--content">
+              <p><%= el.description %></p>
+              <p>Price : $<%= el.price %></p>
+              <form action="cart" id="addForm" method="post">
+                <input
+                  type="string"
+                  name="productID"
+                  value="<%= el.id %>"
+                  hidden
+                />
+                <input
+                  type="string"
+                  name="userID"
+                  value="<%= el.userID %>"
+                  hidden
+                />
+                <div class="boton">
+                  <input type="submit" value="Comprar" class="boton__fill" />
+                </div>
+              </form>
+            </div>
+          </li>
+          <% }) %>
+        </ul>
+        <% } else { %>
+        <h2>No hay Productos</h2>
+        <% } %>
+      </div>
+    </section>
+    <%- include('./partials/footer.ejs'); %>
+  </body>
+</html>

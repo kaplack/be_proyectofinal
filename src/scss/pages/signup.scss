@@ -1,0 +1,14 @@
+.signup {
+  margin: 4rem 0;
+  &__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &--main {
+      padding: 2rem;
+      border: 1px solid white;
+      border-radius: 1rem;
+    }
+  }
+}

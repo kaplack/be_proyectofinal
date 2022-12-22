@@ -1,0 +1,15 @@
+/*NO esta en el github soy modelo*/
+
+form {
+  max-width: 350px;
+}
+
+.formInput,
+.formInputFile {
+  margin-bottom: 10px;
+}
+.formInput input,
+.formInput textarea {
+  width: calc(100% - 1.5rem);
+  padding: 5px;
+}

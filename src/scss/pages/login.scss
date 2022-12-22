@@ -1,0 +1,18 @@
+.login-content {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__box {
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid white;
+  }
+}
+.form__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

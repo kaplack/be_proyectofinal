@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/head.ejs'); %>
+  <body>
+    <%- include('./partials/header.ejs'); %>
+    <section>
+      <div class="login-content row">
+        <div class="login-content__box">
+          <h2 id="username">Ingresa a nuestra web</h2>
+          <div class="login-form">
+            <form
+              id="loginForm"
+              class="login-form__form"
+              action="login"
+              method="post"
+              enctype="multipart/form-data"
+            >
+              <div class="formInput input">
+                <input
+                  type="text"
+                  placeholder="Ingrese el nombre del usuario"
+                  name="user"
+                  id="user"
+                />
+              </div>
+              <div class="formInput input">
+                <input
+                  type="password"
+                  placeholder="Ingresa tu password"
+                  name="password"
+                  id="password"
+                />
+              </div>
+            </form>
+            <div class="form__buttons">
+              <button form="loginForm" id="send" class="boton__fill">
+                Ingresar
+              </button>
+              <div class="boton">
+                <a href="/signup" class="boton__ghost-or">Registrate</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <%-include('./partials/footer.ejs'); %>
+  </body>
+</html>

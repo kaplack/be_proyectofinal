@@ -1,0 +1,28 @@
+<header>
+  <nav class="main-nav row">
+    <a href="/"
+      ><img src="/img/SM_logo.png" alt="Logo Soy Modelo" class="logo"
+    /></a>
+    <ul class="menu-bar">
+      <li><a class="navbar__link" href="/">Inicio</a></li>
+      <li><a href="/products" class="navbar__link">Tienda</a></li>
+      <% if (!user) { %>
+      <li><a href="/login" class="navbar__link">Login</a></li>
+      <% } else { %>
+      <li class="user">
+        <a href="/useradmin" class="navbar__link"
+          ><i class="fas fa-user"></i> <%= user.username %></a
+        >
+      </li>
+      <li class="salida">
+        <a href="/logout" class="navbar__link">
+          <i class="fa fa-sign-out" aria-hidden="true"></i
+        ></a>
+      </li>
+      <% } %>
+    </ul>
+    <div class="menu-mobile">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+</header>

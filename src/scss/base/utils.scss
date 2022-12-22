@@ -1,0 +1,13 @@
+.a-link {
+  color: white;
+  &__dark {
+    color: $darkPurple;
+  }
+  &__pink {
+    color: $secondary-color;
+  }
+
+  &__orange {
+    color: $orange;
+  }
+}
